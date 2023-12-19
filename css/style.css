@@ -11,3 +11,34 @@
 /* 
     GENERAL
 */
+img{
+    width: 100%;
+}
+
+/*
+    MAIN
+*/
+
+.container{
+    height: 100vh;
+}
+.slide{
+    width: 500px;
+}
+
+#container{
+    position: relative;
+}
+.titolo{
+    position: absolute;
+    top: 0;
+    left: 0;
+    translate: 0 -100%;
+}
+.paragrafo{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    translate: 0 100%;
+    padding-top: 20px;
+}
